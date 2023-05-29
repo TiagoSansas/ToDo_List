@@ -1,5 +1,40 @@
 .addTask{
   display: flex;
-  flex-direction: row;
-  
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 1.5rem - 8px);
+}
+.addTask > input{
+  width: 638px;
+  height: 54px;
+  padding-left: 1rem;
+  margin-right: 0.75rem;
+  background: var(--gray-500);
+
+  border:0;
+  border-radius: 4px;
+
+  color:var(--gray-100)
+
+}
+.addTask > input:focus{
+  outline: 2px solid #9747FF;
+}
+.createButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 52px;
+
+  background: var(--blue-dark-700);
+  color: var(--gray-100);
+  border: 0;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+.icon{
+  margin-left: 0.25rem ;
+  display: flex;
 }
