@@ -1,16 +1,21 @@
 import { AddTask } from "./components/AddTask";
 import { Header } from "./components/Header";
+import { ListTask } from "./components/ListTask";
+
 import "./global.css";
 
 function App() {
   return (
     <>
       <div>
-        <Header />
-        <AddTask />
+        <div>
+          <Header />
+          <AddTask />
+        </div>
+        <div>
+          <ListTask />
+        </div>
       </div>
-
-      <h1>Ola Mundo</h1>
     </>
   );
 }

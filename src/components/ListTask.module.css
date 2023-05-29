@@ -1,0 +1,21 @@
+.content{
+   width: 736px;
+   height: 287px;
+   margin:0 auto;
+   position: relative;
+}
+.infoTask{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top:3rem;
+}
+.tasks{
+ 
+  position: absolute;
+  top:50%;
+  left: 25%;
+
+}
