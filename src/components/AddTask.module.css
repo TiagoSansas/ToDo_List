@@ -11,7 +11,7 @@
   margin-right: 0.75rem;
   background: var(--gray-500);
 
-  border:0;
+  border:1px solid black;
   border-radius: 4px;
 
   color:var(--gray-100)

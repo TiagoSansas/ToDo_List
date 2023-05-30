@@ -47,7 +47,11 @@ export function ListTask({ tasks, onDeleteTask, setTask }: ListTaskProps) {
         </div>
         <div>
           <span>Concluidas </span>
-          <span>{taskComplete}</span>
+          {taskComplete && (
+            <span>
+              {taskComplete} de {tasks.length}
+            </span>
+          )}
         </div>
       </div>
 
@@ -60,7 +64,7 @@ export function ListTask({ tasks, onDeleteTask, setTask }: ListTaskProps) {
       <div>
         {tasks.map((item) => {
           return (
-            <div className={styles.detailsTask}>
+            <div key={item.content} className={styles.detailsTask}>
               <input
                 type="checkbox"
                 onClick={() => handleUpdateTask(item.content)}
