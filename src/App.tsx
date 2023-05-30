@@ -1,6 +1,5 @@
 import { AddTask } from "./components/AddTask";
 import { Header } from "./components/Header";
-import { ListTask } from "./components/ListTask";
 
 import "./global.css";
 
@@ -11,9 +10,6 @@ function App() {
         <div>
           <Header />
           <AddTask />
-        </div>
-        <div>
-          <ListTask />
         </div>
       </div>
     </>

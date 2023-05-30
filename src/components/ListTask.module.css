@@ -11,6 +11,8 @@
   justify-content: space-between;
 
   padding-top:3rem;
+
+  border-bottom: 1px solid var(--gray-200);
 }
 .tasks{
  
@@ -18,4 +20,34 @@
   top:50%;
   left: 25%;
 
+}
+
+.detailsTask{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  
+  background: var(--gray-500);
+  color: var(--gray-100);
+
+  padding: 1rem;
+
+  margin-top: 1rem;
+
+  border-radius: 4px;
+}
+.detailsTask input[type='checkbox']{
+  width: 20px;
+  height: 20px;
+}
+.isComplete{
+  text-decoration: line-through;
+}
+.isNotComplete{
+  text-decoration: none;
+}
+.detailsTask label{
+  padding-left:1rem ;  
+  
 }
